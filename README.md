@@ -6,5 +6,8 @@ that may need review.
 
 ## Project status
 
-Phase 0 — Project setup. Git and the Python environment are ready.
-The DataCo dataset download is in progress.
+
+- Git, Python 3.13, and the local PostgreSQL database are set up.
+- Both DataCo CSV files are available locally in `data/raw/`.
+- The initial business requirements and acceptance tests are documented.
+- Next phase: profile the source data.
