@@ -3,3 +3,5 @@ duckdb
 pyarrow
 ipykernel
 pytest
+psycopg[binary]>=3.2,<4
+matplotlib>=3.10,<4
