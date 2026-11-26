@@ -1,0 +1,13 @@
+﻿field,changed_item_rows,remaining_outer_whitespace,distinct_labels_before,distinct_labels_after
+Market,0,0,5,5
+Order Region,17925,0,23,23
+Order Country,0,0,164,164
+Order State,0,0,1089,1089
+Order City,0,0,3597,3597
+Customer Segment,0,0,3,3
+Shipping Mode,0,0,4,4
+Delivery Status,0,0,4,4
+Order Status,0,0,9,9
+Type,0,0,4,4
+Category Name,1475,0,50,50
+Department Name,362,0,11,11

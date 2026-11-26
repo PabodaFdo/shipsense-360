@@ -1,0 +1,7 @@
+﻿relationship,tested_rows,exact_matches,within_tolerance,outside_tolerance,untestable_rows,max_absolute_error
+Sales = quantity × price,180519,126929,180519,0,0,2.289999997628911e-05
+Discount = Sales × discount rate,180519,14387,170490,10029,0,9.999397400010011
+Item total = Sales − discount,180519,99554,179295,1224,0,0.010013549999996485
+Sales per customer = item total,180519,180519,180519,0,0,0.0
+Benefit = Order Profit Per Order,180519,180519,180519,0,0,0.0
+Profit = item total × profit ratio,180519,2726,115129,65390,0,9.299195480020018

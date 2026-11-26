@@ -1,0 +1,35 @@
+﻿table,column,source_fields,transformation
+orders_core,order_id,Order Id,Select and rename; preserve recorded value. Consolidate validated order attributes.
+orders_core,customer_id,Order Customer Id,Select and rename; preserve recorded value. Consolidate validated order attributes.
+orders_core,actual_shipping_calendar_days,Days for shipping (real),Select and rename; preserve recorded value. Consolidate validated order attributes.
+orders_core,scheduled_shipping_days,Days for shipment (scheduled),Select and rename; preserve recorded value. Consolidate validated order attributes.
+orders_core,shipping_mode,Shipping Mode,Trim surrounding whitespace; rename. Consolidate validated order attributes.
+orders_core,delivery_status_source,Delivery Status,Trim surrounding whitespace; rename. Consolidate validated order attributes.
+orders_core,late_delivery_risk_source,Late_delivery_risk,Select and rename; preserve recorded value. Consolidate validated order attributes.
+orders_core,order_status_source,Order Status,Trim surrounding whitespace; rename. Consolidate validated order attributes.
+orders_core,customer_segment,Customer Segment,Trim surrounding whitespace; rename. Consolidate validated order attributes.
+orders_core,market,Market,Trim surrounding whitespace; rename. Consolidate validated order attributes.
+orders_core,order_region,Order Region,Trim surrounding whitespace; rename. Consolidate validated order attributes.
+orders_core,order_country,Order Country,Trim surrounding whitespace; rename. Consolidate validated order attributes.
+orders_core,order_state,Order State,Trim surrounding whitespace; rename. Consolidate validated order attributes.
+orders_core,order_city,Order City,Trim surrounding whitespace; rename. Consolidate validated order attributes.
+orders_core,order_datetime,order date (DateOrders),Parse using %m/%d/%Y %H:%M; consolidate by Order Id.
+orders_core,shipping_datetime,shipping date (DateOrders),Parse using %m/%d/%Y %H:%M; consolidate by Order Id.
+orders_core,is_shipping_cancelled,Delivery Status,Trim text; compare with 'Shipping canceled'.
+orders_core,shipping_days_difference,Days for shipping (real) | Days for shipment (scheduled),Subtract scheduled days from recorded actual calendar days.
+order_items_core,order_item_id,Order Item Id,Select and rename; preserve recorded value.
+order_items_core,order_id,Order Id,Select and rename; preserve recorded value.
+order_items_core,product_id,Product Card Id,Select and rename; preserve recorded value.
+order_items_core,category_id,Category Id,Select and rename; preserve recorded value.
+order_items_core,department_id,Department Id,Select and rename; preserve recorded value.
+order_items_core,product_name,Product Name,Cast to string; rename.
+order_items_core,category_name,Category Name,Trim surrounding whitespace; rename.
+order_items_core,department_name,Department Name,Trim surrounding whitespace; rename.
+order_items_core,quantity,Order Item Quantity,Select and rename; preserve recorded value.
+order_items_core,recorded_unit_price,Order Item Product Price,Select and rename; preserve recorded value.
+order_items_core,recorded_line_sales,Sales,Select and rename; preserve recorded value.
+order_items_core,recorded_discount_amount,Order Item Discount,Select and rename; preserve recorded value.
+order_items_core,reported_discount_rate,Order Item Discount Rate,Select and rename; preserve recorded value.
+order_items_core,recorded_net_amount,Order Item Total,Select and rename; preserve recorded value.
+order_items_core,recorded_item_profit,Order Profit Per Order,Select and rename; preserve recorded value.
+order_items_core,reported_profit_ratio,Order Item Profit Ratio,Select and rename; preserve recorded value.

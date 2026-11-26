@@ -1,0 +1,6 @@
+﻿identifier,attribute,distinct_non_null_ids,ids_with_multiple_attribute_values,rows_missing_identifier,rows_missing_attribute
+Product Card Id,Product Name,118,0,0,0
+Product Card Id,Product Category Id,118,0,0,0
+Category Id,Category Name,51,0,0,0
+Category Id,Department Id,51,0,0,0
+Department Id,Department Name,11,0,0,0

@@ -1,0 +1,22 @@
+﻿check,affected_count,unit,status,decision
+Missing order IDs,0,orders,PASS,Resolve any affected records before downstream loading.
+Duplicate order IDs,0,orders,PASS,Resolve any affected records before downstream loading.
+Missing item IDs,0,items,PASS,Resolve any affected records before downstream loading.
+Duplicate item IDs,0,items,PASS,Resolve any affected records before downstream loading.
+Missing item-to-order IDs,0,items,PASS,Resolve any affected records before downstream loading.
+Items referencing absent orders,0,items,PASS,Resolve any affected records before downstream loading.
+Missing core timestamps,0,timestamp values,PASS,Require populated validated timestamps.
+Shipping timestamp before order timestamp,0,orders,PASS,Investigate chronology violations.
+Calendar-day reconciliation mismatch,0,orders,PASS,Investigate deviations from the observed convention.
+Source missingness: Customer Lname,8,source item rows,WARN,Excluded from current core tables; preserve source missingness.
+Source missingness: Customer Zipcode,3,source item rows,WARN,Excluded from current core tables; preserve source missingness.
+Source missingness: Order Zipcode,155679,source item rows,WARN,Excluded from current core tables; preserve source missingness.
+Source missingness: Product Description,180519,source item rows,WARN,Excluded from current core tables; preserve source missingness.
+Source fields without dictionary definitions,1,fields,WARN,Document the gap; do not invent a definition.
+Sales = quantity × price,0,items,PASS,Screening tolerance 0.01; preserve source values and investigate differences.
+Discount = Sales × discount rate,10029,items,WARN,Screening tolerance 0.01; preserve source values and investigate differences.
+Item total = Sales − discount,1224,items,WARN,Screening tolerance 0.01; preserve source values and investigate differences.
+Sales per customer = item total,0,items,PASS,Screening tolerance 0.01; preserve source values and investigate differences.
+Benefit = Order Profit Per Order,0,items,PASS,Screening tolerance 0.01; preserve source values and investigate differences.
+Profit = item total × profit ratio,65390,items,WARN,Screening tolerance 0.01; preserve source values and investigate differences.
+At least one item-level IQR flag,25789,items,INFO,Retain records; investigate relevant patterns during EDA.

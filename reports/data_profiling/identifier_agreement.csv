@@ -1,0 +1,4 @@
+﻿comparison,comparable_rows,missing_either_id,mismatched_rows
+Order Customer Id = Customer Id,180519,0,0
+Order Item Cardprod Id = Product Card Id,180519,0,0
+Category Id = Product Category Id,180519,0,0

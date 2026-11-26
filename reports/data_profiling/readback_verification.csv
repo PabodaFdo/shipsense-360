@@ -1,0 +1,21 @@
+﻿check,status
+Parquet round trip: orders_core,PASS
+Parquet round trip: order_items_core,PASS
+Parquet round trip: item_outlier_flags,PASS
+CSV round trip: data_quality_summary.csv,PASS
+CSV round trip: commercial_validation.csv,PASS
+CSV round trip: outlier_summary.csv,PASS
+CSV round trip: source_missing_values.csv,PASS
+CSV round trip: source_field_variation.csv,PASS
+CSV round trip: categorical_trim_audit.csv,PASS
+CSV round trip: identifier_agreement.csv,PASS
+CSV round trip: product_hierarchy_checks.csv,PASS
+CSV round trip: coordinate_bounds.csv,PASS
+CSV round trip: core_data_dictionary.csv,PASS
+CSV round trip: source_to_target_mapping.csv,PASS
+"Saved keys, order relationships, and flag coverage",PASS
+Source-to-saved total: quantity,PASS
+Source-to-saved total: recorded_line_sales,PASS
+Source-to-saved total: recorded_discount_amount,PASS
+Source-to-saved total: recorded_net_amount,PASS
+Source-to-saved total: recorded_item_profit,PASS
